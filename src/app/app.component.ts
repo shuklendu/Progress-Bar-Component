@@ -10,6 +10,6 @@ export class AppComponent {
   max = 500;
   val = 100;
   getLabel(): string {
-    return `${this.val} of ${this.max}`;
+    return `75%`;
   }
 }
