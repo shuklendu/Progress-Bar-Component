@@ -1,0 +1,14 @@
+.progress-bar-comp {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-line {
+  display: flex;
+  align-items: center;
+}
+
+.progress-line progress {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
