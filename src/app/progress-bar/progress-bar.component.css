@@ -28,8 +28,8 @@ progress[value]::-webkit-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
-  border-radius: 4px 0 0 4px;
+  border-radius: 4.5px 0 0 4.5px;
   background: var(--valColor);
-  height: 8px;
+  height: 9px;
   border: none;
 }
