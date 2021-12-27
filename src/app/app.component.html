@@ -1,5 +1,3 @@
-<app-progress-bar
-  [max]="250"
-  [value]="100"
-  [countLabel]="getLabel()"
-></app-progress-bar>
+<app-progress-bar [max]="max" [value]="val">
+  <label>{{ val }} von {{ max }}</label>
+</app-progress-bar>

@@ -1,3 +1,11 @@
 p {
   font-family: Lato;
 }
+
+/* ::ng-deep progress[value]::-webkit-progress-value {
+  background: red;
+} */
+
+/* ::ng-deep progress[value]::-webkit-progress-bar {
+  background: white;
+} */
