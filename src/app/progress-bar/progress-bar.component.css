@@ -8,24 +8,28 @@
   align-items: center;
 }
 
-.progress-line progress {
+progress[value] {
   flex-grow: 1;
   margin-right: 0.5rem;
-}
-
-progress[value] {
   /* Reset the default appearance */
   -webkit-appearance: none;
   appearance: none;
   height: 10px;
   border-radius: 5px;
+  overflow: hidden;
   border: 1px solid gray;
 }
 
 progress[value]::-webkit-progress-bar {
+  border-radius: 5px 0 0 5px;
   background: white;
+  height: 10px;
+  border: none;
 }
 
 progress[value]::-webkit-progress-value {
+  border-radius: 4px 0 0 4px;
   background: var(--valColor);
+  height: 8px;
+  border: none;
 }
