@@ -17,19 +17,19 @@ progress[value] {
   height: 10px;
   border-radius: 5px;
   overflow: hidden;
-  border: 1px solid gray;
+  border: 1px solid red;
 }
 
 progress[value]::-webkit-progress-bar {
-  border-radius: 5px 0 0 5px;
+  border-radius: 4px 0 0 4px;
   background: white;
-  height: 10px;
+  height: 8px;
   border: none;
+  overflow: hidden;
 }
 
 progress[value]::-webkit-progress-value {
-  border-radius: 4.5px 0 0 4.5px;
   background: var(--valColor);
-  height: 9px;
+  height: 8px;
   border: none;
 }

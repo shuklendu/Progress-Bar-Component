@@ -7,8 +7,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  max = 500;
-  val = 100;
+  max = 100;
+  val = 50;
   getLabel(): string {
     return `75%`;
   }
